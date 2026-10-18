@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "225314350142",
+    "project_id": "stock-distribuidora-sd",
+    "storage_bucket": "stock-distribuidora-sd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225314350142:android:5fdfb051bed5c6942b9d6f",
+        "android_client_info": {
+          "package_name": "com.stockdistribuidorasa.sd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZvFENig7F4S3XAl0nZy4BXiPAMAW5A7E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

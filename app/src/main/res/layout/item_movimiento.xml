@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="12dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/tvProductoMovimientoItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Producto"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#243B6B"/>
+
+    <TextView
+        android:id="@+id/tvTipoMovimientoItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrada"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="6dp"/>
+
+    <TextView
+        android:id="@+id/tvCantidadMovimientoItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cantidad: 20 unidades"
+        android:textSize="14sp"
+        android:textColor="#475569"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/tvFechaMovimientoItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18/10/2026"
+        android:textSize="14sp"
+        android:textColor="#64748B"
+        android:layout_marginTop="4dp"/>
+
+</LinearLayout>

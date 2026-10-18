@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEF7F7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Editar producto"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#243B6B"
+            android:layout_marginBottom="24dp"/>
+
+        <EditText
+            android:id="@+id/etEditarNombre"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Nombre"
+            android:textColor="#243B6B"
+            android:textColorHint="#64748B"
+            android:layout_marginBottom="14dp"/>
+
+        <Spinner
+            android:id="@+id/spEditarMarca"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="14dp"/>
+
+        <Spinner
+            android:id="@+id/spEditarCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="14dp"/>
+
+        <EditText
+            android:id="@+id/etEditarPresentacion"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Presentación"
+            android:textColor="#243B6B"
+            android:textColorHint="#64748B"
+            android:layout_marginBottom="14dp"/>
+
+        <EditText
+            android:id="@+id/etEditarCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Código"
+            android:textColor="#243B6B"
+            android:textColorHint="#64748B"
+            android:layout_marginBottom="14dp"/>
+
+        <EditText
+            android:id="@+id/etEditarImagenUrl"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="URL de imagen"
+            android:textColor="#243B6B"
+            android:textColorHint="#64748B"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnGuardarCambios"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Guardar cambios"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4F46E5"/>
+
+    </LinearLayout>
+
+</ScrollView>

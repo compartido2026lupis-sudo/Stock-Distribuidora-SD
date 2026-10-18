@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#EEF7F7"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Administrar catálogos"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#243B6B"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gestiona las marcas y categorías disponibles"
+        android:textSize="15sp"
+        android:textColor="#64748B"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnMarcas"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Marcas"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#4F46E5"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnCategorias"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Categorías"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#4F46E5"/>
+
+</LinearLayout>
